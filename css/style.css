@@ -1696,9 +1696,3 @@ ul { list-style-type: none; }
   -o-transition: all 0.25s ease;
   transition: all 0.25s ease;
 }
-
-.submenu a:hover {
-  background: yellow;
-    border-radius: 20px;
-  color: #FFF;
-}
