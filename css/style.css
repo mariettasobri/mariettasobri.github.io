@@ -677,7 +677,7 @@ font-family: "Montserrat", Georgia, serif;}
 .timeline-centered:after {
   clear: both; }
 
-.timeline-centered:before {
+/*.timeline-centered:before {
   content: '';
   position: absolute;
   display: block;
@@ -685,7 +685,7 @@ font-family: "Montserrat", Georgia, serif;}
   background: #f9bf3f;
   top: 20px;
   bottom: 20px;
-  margin-left: 29px; }
+  margin-left: 29px; }*/
 
 .timeline-centered .timeline-entry {
   position: relative;
@@ -1662,7 +1662,11 @@ ul { list-style-type: none; }
   font-size: 16px;
 }
 
-.accordion li.open .link { color: #b63b4d; }
+.accordion li.open .link { 
+  border-bottom: none
+  ;
+  color: #b63b4d;
+}
 
 .accordion li.open i { color: #b63b4d; }
 
