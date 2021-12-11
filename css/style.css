@@ -421,6 +421,17 @@ figure {
             article.timeline-entry {
               padding-right: 17px; } }
 
+.lista{
+  list-style-type: disc;
+  padding-left: 37%;
+}
+
+@media screen and (max-width: 768px) {
+  .lista {
+    list-style-type: disc;
+    padding-left: 12%;
+  }}
+
 body.offcanvas {
   overflow-x: hidden; }
   body.offcanvas #colorlib-aside {
