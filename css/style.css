@@ -742,7 +742,7 @@ font-family: "Montserrat", Georgia, serif;}
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box; }
-
+/*
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
   content: '';
   display: block;
@@ -755,7 +755,7 @@ font-family: "Montserrat", Georgia, serif;}
   left: 0;
   top: 10px;
   margin-left: -9px; }
-
+*/
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p + p {
   margin-top: 15px; }
 
