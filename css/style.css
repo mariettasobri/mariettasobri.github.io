@@ -417,6 +417,10 @@ figure {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
 
+@media screen and (max-width: 768px) {
+            article.timeline-entry {
+              padding-right: 17px; } }
+
 body.offcanvas {
   overflow-x: hidden; }
   body.offcanvas #colorlib-aside {
@@ -426,7 +430,7 @@ body.offcanvas {
     -o-transform: translateX(0);
     transform: translateX(0);
     width: 300px;
-    background-color: #f9bf3f;
+    background-color: #A3D9BB;
     z-index: 999;
     position: fixed; }
   body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
